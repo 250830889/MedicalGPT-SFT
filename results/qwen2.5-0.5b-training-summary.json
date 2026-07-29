@@ -1,0 +1,16 @@
+{
+  "run_date": "2026-05-09",
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "training_method": "single-GPU LoRA SFT",
+  "train_samples": 1000,
+  "eval_samples": 100,
+  "epochs": 2.0,
+  "optimizer_steps": 126,
+  "train_runtime_seconds": 863.4784,
+  "train_samples_per_second": 2.316,
+  "train_steps_per_second": 0.146,
+  "train_loss": 2.803245854756189,
+  "eval_loss": 2.8126401901245117,
+  "perplexity": 16.653829502398217,
+  "important_limitation": "The original run pointed train_file_dir and validation_file_dir to the same data directory. Eval loss therefore confirms the evaluation pipeline but is not an independent generalization result."
+}

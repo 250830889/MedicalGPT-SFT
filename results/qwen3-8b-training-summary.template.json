@@ -1,0 +1,20 @@
+{
+  "status": "not_run",
+  "run_date": null,
+  "model": "Qwen/Qwen3-8B",
+  "upstream_revision": "2.7.0",
+  "training_method": "single-GPU 4-bit QLoRA SFT",
+  "template": "qwen3_nothink",
+  "train_samples": null,
+  "eval_samples": null,
+  "model_max_length": 2048,
+  "epochs": null,
+  "optimizer_steps": null,
+  "train_runtime_seconds": null,
+  "peak_gpu_memory_gb": null,
+  "train_loss": null,
+  "eval_loss": null,
+  "perplexity": null,
+  "hardware": null,
+  "notes": "Copy this file to qwen3-8b-training-summary.json and populate it only after a real Qwen3-8B run."
+}

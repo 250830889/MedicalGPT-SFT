@@ -1,0 +1,14 @@
+{
+  "status": "not_run",
+  "model_name_or_path": "BAAI/bge-small-zh-v1.5",
+  "similarity_threshold": 0.92,
+  "text_mode": "first_user",
+  "input_records": null,
+  "exact_duplicates_removed": null,
+  "semantic_duplicates_removed": null,
+  "retained_records": null,
+  "total_removed": null,
+  "removal_rate": null,
+  "hardware": null,
+  "notes": "Run tools/semantic_deduplicate.py on the real dataset and copy verified statistics here. Do not claim an 18% removal rate unless the generated report supports it."
+}

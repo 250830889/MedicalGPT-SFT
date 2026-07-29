@@ -1,0 +1,15 @@
+# First install the pinned upstream dependencies with scripts/setup_upstream.ps1.
+# Qwen3 requires a recent Transformers release; MedicalGPT 2.7.0 currently
+# declares transformers>=5.1.0.
+
+bitsandbytes>=0.46.0
+tensorboard
+gradio>=5.0
+fastapi
+uvicorn
+openai
+
+# BGE semantic deduplication
+sentence-transformers>=5.6.0
+numpy>=1.26.0
+pytest>=8.0.0
