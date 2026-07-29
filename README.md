@@ -1,6 +1,6 @@
 # MedicalGPT · Qwen3-8B Medical QLoRA SFT
 
-基于开源 MedicalGPT 训练链路实现的医疗领域大模型监督微调项目。当前仓库已完成对 `Qwen/Qwen3-8B` 的单卡 4-bit QLoRA 配置、BGE 语义去重、数据处理、训练、Adapter 合并、CLI/Gradio 推理和实验记录规范化。
+医疗领域大模型监督微调项目。当前仓库已完成对 `Qwen/Qwen3-8B` 的单卡 4-bit QLoRA 配置、BGE 语义去重、数据处理、训练、Adapter 合并、CLI/Gradio 推理和实验记录规范化。
 
 ## 项目亮点
 
